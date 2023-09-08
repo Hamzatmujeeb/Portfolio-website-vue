@@ -78,12 +78,12 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+  width: 100%;
 }
 
 .logo {
   width: 160px; /* Adjust logo width */
   height: 80px; /* Adjust logo height */
-  margin-right: 300px; /* Add space between logo and text */
 }
 
 .navbar-brand {
