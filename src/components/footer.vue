@@ -75,7 +75,6 @@ export default {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: center;
 }
 
 .social-icons li {
@@ -83,7 +82,7 @@ export default {
   font-size: 24px;
 }
 
-.social-icons a {
+.social-icons li:not(:first-of-type) a {
   color: #000;
   text-decoration: none;
   text-decoration-line: none;

@@ -209,12 +209,14 @@ h2 {
   border-radius: 5px;
   position: relative;
   max-width: 70%;
-  max-height: 100%;
+  max-height: 80%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   opacity: 1;
+  width: 100%;
+  height: 100%;
 }
 
 .close {
@@ -228,8 +230,9 @@ h2 {
 }
 
 .modal-image {
-  width: 70%;
-  height: 50%;
+  width: 100%;
+  height: 90%;
   margin-bottom: 10px;
+  object-fit: contain;
 }
 </style>

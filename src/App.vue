@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app">
     <Header></Header>
     <Home></Home>
     <About></About>
@@ -34,6 +34,12 @@ export default {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  max-width: 1690px;
 }
+
+.app {
+  max-width: 1690px;
+  margin: 0 auto;
+}
+
+
 </style>
